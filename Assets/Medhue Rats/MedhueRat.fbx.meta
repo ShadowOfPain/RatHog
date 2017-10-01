@@ -1,0 +1,2053 @@
+fileFormatVersion: 2
+guid: dc597f0e283ccd24baeac9152c923e65
+timeCreated: 18446744011573954816
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Clav_L
+    100004: Clav_R
+    100006: ElbowIK_L
+    100008: ElbowIK_R
+    100010: Foot_L
+    100012: Foot_R
+    100014: FootIK_L
+    100016: FootIK_R
+    100018: Forearm_L
+    100020: Forearm_R
+    100022: Hand_L
+    100024: Hand_R
+    100026: HandIK_L
+    100028: HandIK_R
+    100030: Head
+    100032: Hip
+    100034: Hip_Controller
+    100036: Hip_L
+    100038: Hip_R
+    100040: KneeIK_L
+    100042: KneeIK_R
+    100044: //RootNode
+    100046: MedhueRat
+    100048: Neck
+    100050: Rat_Armature
+    100052: Rat_Controller
+    100054: Shin_L
+    100056: Shin_R
+    100058: Shoulder_L
+    100060: Shoulder_R
+    100062: Tail
+    100064: Tail1
+    100066: Tail2
+    100068: Tail3
+    100070: Tail4
+    100072: Tail5
+    100074: Tail6
+    100076: Thigh_L
+    100078: Thigh_R
+    100080: Torso
+    400000: Chest
+    400002: Clav_L
+    400004: Clav_R
+    400006: ElbowIK_L
+    400008: ElbowIK_R
+    400010: Foot_L
+    400012: Foot_R
+    400014: FootIK_L
+    400016: FootIK_R
+    400018: Forearm_L
+    400020: Forearm_R
+    400022: Hand_L
+    400024: Hand_R
+    400026: HandIK_L
+    400028: HandIK_R
+    400030: Head
+    400032: Hip
+    400034: Hip_Controller
+    400036: Hip_L
+    400038: Hip_R
+    400040: KneeIK_L
+    400042: KneeIK_R
+    400044: //RootNode
+    400046: MedhueRat
+    400048: Neck
+    400050: Rat_Armature
+    400052: Rat_Controller
+    400054: Shin_L
+    400056: Shin_R
+    400058: Shoulder_L
+    400060: Shoulder_R
+    400062: Tail
+    400064: Tail1
+    400066: Tail2
+    400068: Tail3
+    400070: Tail4
+    400072: Tail5
+    400074: Tail6
+    400076: Thigh_L
+    400078: Thigh_R
+    400080: Torso
+    4300000: MedhueRat
+    7400000: Default Take
+    7400002: PoseLib
+    7400004: Rat_Dead
+    7400006: Rat_Default
+    7400008: Rat_Idle1
+    7400010: Rat_Idle2
+    7400012: Rat_Idle3
+    7400014: Rat_Jump
+    7400016: Rat_JumpM
+    7400018: Rat_Run
+    7400020: Rat_RunM
+    7400022: Rat_Walk0
+    7400024: Rat_Walk0M
+    7400026: Rat_Walk1
+    7400028: Rat_Walk1M
+    7400030: RatTurnL
+    7400032: RatTurnR
+    9500000: //RootNode
+    13700000: MedhueRat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PoseLib
+      takeName: PoseLib
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Dead
+      takeName: Rat_Dead
+      firstFrame: -1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Default
+      takeName: Rat_Default
+      firstFrame: -1
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Idle1
+      takeName: Rat_Idle1
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Idle2
+      takeName: Rat_Idle2
+      firstFrame: -1
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Idle3
+      takeName: Rat_Idle3
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Jump
+      takeName: Rat_Jump
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_JumpM
+      takeName: Rat_JumpM
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Run
+      takeName: Rat_Run
+      firstFrame: -1
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_RunM
+      takeName: Rat_RunM
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Walk0
+      takeName: Rat_Walk0
+      firstFrame: -1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Walk0M
+      takeName: Rat_Walk0M
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Walk1
+      takeName: Rat_Walk1
+      firstFrame: -1
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rat_Walk1M
+      takeName: Rat_Walk1M
+      firstFrame: 0
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RatTurnL
+      takeName: RatTurnL
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: RatTurnR
+      takeName: RatTurnR
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: MedhueRat
+        weight: 1
+      - path: Rat_Armature
+        weight: 1
+      - path: Rat_Armature/Rat_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/ElbowIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_L/Foot_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/FootIK_R/Foot_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_L/Hand_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/HandIK_R/Hand_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_L/Shoulder_L/Forearm_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Clav_R/Shoulder_R/Forearm_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip/Torso/Chest/Neck/Head
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_L/Thigh_L/Shin_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Hip_R/Thigh_R/Shin_R
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/Hip_Controller/Tail/Tail1/Tail2/Tail3/Tail4/Tail5/Tail6
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_L
+        weight: 1
+      - path: Rat_Armature/Rat_Controller/KneeIK_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Rat_Controller
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
